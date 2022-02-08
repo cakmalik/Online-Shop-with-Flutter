@@ -116,7 +116,9 @@ class _CartPageState extends State<CartPage> {
                     borderRadius: BorderRadius.circular(12),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/checkout');
+                },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
